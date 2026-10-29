@@ -3,8 +3,8 @@
 A simulated customer code issue with PyTorch and Weights and Biases with a before and after notebook demonstrating the behavior and code changes done to correct errors, as well as a troubleshooting writeup covering the troubleshooting process.
 
 ## Demonstration
-[Before](https://colab.research.google.com/drive/1Qr0SimGmsdSDO-GA7b7VX473uKuGE1wt?usp=sharing)
-[After](https://colab.research.google.com/drive/1SIHssJ-hqp7upqJrIkhwi8anHiSQh_By?usp=sharing)
+- [Before](https://colab.research.google.com/drive/1Qr0SimGmsdSDO-GA7b7VX473uKuGE1wt?usp=sharing)
+- [After](https://colab.research.google.com/drive/1SIHssJ-hqp7upqJrIkhwi8anHiSQh_By?usp=sharing)
 
 ## How to Run
 Open either notebook using the Colab links above and run the cells from top to bottom. The notebooks install Weights & Biases and download CIFAR-10 when run. The **Before** notebook contains the simulated issues; use the **After** notebook to follow the corrected pipeline. The After notebook logs metrics to the `PyTorch_Test` W&B project, so sign in to Weights & Biases when prompted.
